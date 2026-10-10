@@ -1,0 +1,23 @@
+# Core (offline pipeline and tests)
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+
+# Live data access
+requests>=2.31
+pystac-client>=0.7
+planetary-computer>=1.0
+odc-stac>=0.3
+
+# Reference DEM processing
+rasterio>=1.3
+
+# Map output (optional)
+folium>=0.15
+
+# Notebook
+jupyter>=1.0
+ipykernel>=6.0
+
+# Tests
+pytest>=7.0

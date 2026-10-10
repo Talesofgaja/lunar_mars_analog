@@ -1,0 +1,15 @@
+{
+  "region": {
+    "name": "Atacama test region (edit freely)",
+    "bbox": [-70.0, -24.0, -69.4, -23.6]
+  },
+  "tile_size_deg": 0.1,
+  "date_range": "2023-01-01/2023-12-31",
+  "max_cloud_cover": 20,
+  "weights": {"morphometric": 0.4, "spectral": 0.3, "climate": 0.3},
+  "morph_scales": {"slope_w1_deg": 5.0},
+  "spectral_scales": {"iron_oxide_ratio": 0.5, "clay_ratio": 0.1, "ndvi": 0.2},
+  "climate_scales": {"temp_range_c": 30.0, "mean_temp_c": 20.0, "precip_mm_day": 2.0},
+  "top_n": 10,
+  "output_dir": "outputs"
+}
